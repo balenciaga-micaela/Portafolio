@@ -1,0 +1,125 @@
+
+/*Cabecera*/
+.header{
+  width: 100%;
+}
+.cabecera__container{
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  white-space: nowrap;
+}
+
+.cabecera__secciones__lista{
+  display: flex;
+  padding: 0;
+  gap: 10px;
+  align-items: center;
+  list-style: none;
+
+}
+
+/*Pimera Seccion - Presentacion*/
+.seccion__presentacion{
+  display: flex;
+  width: 100vw;
+  
+}
+
+.seccion__presentacion__lista{
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  gap: 15px;
+  white-space: nowrap;
+  flex-wrap: wrap;
+
+}
+.seccion__sobre__mi,
+.seccion__skills,
+.seccion__hobbies,
+.seccion__formacion__academica,
+.seccion__formacion__profesional,
+.footer{
+  width: 100vw;
+  margin: 10% 0;
+
+}
+
+/*Distrubucion de titulos y lista hobbies, formacion academica y skills*/
+.seccion__formacion__academica__titulo,
+.seccion__formacion__academica__lista,
+.seccion__hobbies__titulo,
+.seccion__hobbies__lista,
+.seccion__skills__titulo,
+.seccion__skills__lista,
+.formacion__profesional__titulo{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+/*distribucion de logos hobbies, formacion académica, skills*/
+.seccion__hobbies__logos,
+.seccion__formacion__logos,
+.seccion__skills__logos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  flex-shrink: 1;
+}
+
+
+
+/*seccion experiencia profesional*/
+.seccion__experiencia{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+
+}
+.seccion__experiencia__imagen{
+  width: 70%;
+  box-sizing: border-box;
+  padding: 0% 10%;
+}
+
+.seccion__footer{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__formulario{
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width:834px){
+  .cabecera__secciones__lista li:nth-child(1),
+  .cabecera__secciones__lista li:nth-child(2),
+  .cabecera__secciones__lista li:nth-child(3), 
+  .cabecera__secciones__lista li:nth-child(4) {
+    display: none;
+  }
+  .seccion__experiencia__imagen{
+    width: 100%;
+    
+  }
+  .footer__formulario{
+    margin: 0 auto;
+  }
+}
+
+@media (max-width:360px){
+  body{
+    padding: 10%;
+    margin: 10%;
+  }
+  .seccion__presentacion{
+    flex-direction: column-reverse;
+  }
+
+}
+ 

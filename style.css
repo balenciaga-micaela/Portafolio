@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+body {
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  background-color: #35374B;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+}
+a{
+  color: #FFDB00;
+}
+h1{
+  font-size: 2.5rem;
+  color: #FF8F00;
+}
+p{
+  font-size: 1.3rem;
+}
+
+header,
+.seccion__presentacion,
+.seccion__sobre__mi,
+.seccion__skills,
+.seccion__hobbies,
+.seccion__formacion__academica,
+.seccion__formacion__profesional,
+footer{
+  color: #AF47D2;
+}
+
+.cabecera__links{
+text-align: center;
+font-size: 1rem;
+font-weight: 600;
+text-decoration: none;
+}
+
+.presentacion__links{
+display: flex;
+align-items: center;
+gap: 10px;
+font-size: 1rem;
+font-weight: 600;
+text-decoration: none;
+
+}
+
+.presentacion__foto{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.skills__logo{
+  width: 30%;
+}
+
+.hobbies__logos{
+  width: 20%;
+  padding: 1%;
+  border: solid black;
+}
+
+.formacion__año{
+  margin: 0;
+}
+.formacion__logos{
+  width: 299px;
+  height: 169px;
+  overflow: hidden;
+  border: solid black;
+}
+
+.experiencia__link{
+  text-decoration: none;
+  border: 1px solid;
+  padding: 2%;
+}
+
+
+.footer__formulario{
+  width: 50%;
+  border-radius: 3px;
+  background-color: #D2E0FB;
+  padding: 10px;
+  color: grey;
+}
+.footer__formulario__campo{
+  border: 1px solid #999;
+  padding: 10px;
+  border-radius: 3px;
+}
+.formulario__boton:hover,
+.footer__formulario__campo:hover{
+  border-color: blueviolet;
+}
+#message{
+  height: 80px;
+}
+.formulario__boton{
+  width: 50%;
+  margin: 10px auto;
+  padding: 10px;
+  font-family: "Nunito Sans", sans-serif, bold;
+  color: grey;
+}
